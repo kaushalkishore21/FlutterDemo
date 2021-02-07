@@ -12,7 +12,7 @@ class APIService {
         json.decode(response.body),
       );
     } else {
-      throw Exception('Failed to load data!');
+      throw Exception('Failed to load data ooo!');
     }
   }
 }
